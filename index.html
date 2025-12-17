@@ -3,13 +3,48 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>JE SUIS PASSÉ CHEZ SOUF — Maquette Premium</title>
-  <meta name="description" content="Barber premium — Annemasse & Genève. Coupes, barbe, soins. Réservez sur Planity." />
+  <title>JE SUIS PASSÉ CHEZ SOUF | Coiffeur Barbier Visagiste à Annemasse & Genève</title>
+  <meta name="description" content="Salon de coiffure, Barbier, Visagiste à Annemasse, à deux pas de Genève. Coupes précises, barbe et rituels haut de gamme. Réservation en ligne." />
+  <meta name="robots" content="index, follow">
+    <meta name="author" content="JE SUIS PASSÉ CHEZ SOUF">
+    <meta name="theme-color" content="#0f0f0f">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
+<link rel="icon" href="img/logo.png" type="image/png">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "salon de coiffure, Barbier Visagiste",
+  "@id": "jesuispasséchezsouf.com",
+  "name": "JE SUIS PASSÉ CHEZ SOUF",
+  "url": "jesuispassechezsouf.com/",
+  "logo": "jesuispassechezsouf/img/logo.png",
+
+  "priceRange": "€€€",
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Annemasse"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Genève"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Annemasse",
+    "addressCountry": "FR"
+  },
+  "sameAs": [
+    "https://www.instagram.com/jesuispassechezsouf"
+  ]
+}
+</script>
 
 </head>
 <body>
@@ -22,7 +57,7 @@
   <ul class="nav-links" role="menubar">
     <li role="none"><a role="menuitem" href="#rituels">Rituels</a></li>
     <!-- <li role="none"><a role="menuitem" href="#before-after">Avant / Après</a></li> -->
-    <li role="none"><a role="menuitem" href="#atelier">L'Atelier</a></li>
+    <!-- <li role="none"><a role="menuitem" href="#atelier">L'Atelier</a></li> -->
     <li role="none"><a role="menuitem" href="#promesse">Promesse</a></li>
     <li role="none"><a role="menuitem" href="#reco">Recommandations</a></li>
     <!-- <li role="none"><a role="menuitem" href="#salons">Salons</a></li> -->
@@ -51,7 +86,7 @@
   <ul class="mobile-links" role="menu">
     <li><a href="#rituels">Rituels</a></li>
     <!-- <li><a href="#before-after">Avant / Après</a></li> -->
-    <li><a href="#atelier">L'Atelier</a></li>
+    <!-- <li><a href="#atelier">L'Atelier</a></li> -->
     <li><a href="#promesse">Promesse</a></li>
     <li><a href="#reco">Recommandations</a></li>
     <!-- <li><a href="#salons">Salons</a></li> -->
@@ -82,14 +117,13 @@
       <div class="cta">
         <button class="btn primary" id="btn-rdv">Prendre rendez-vous</button>
       </div>
-
-      <div class="hero-note">Annemasse • Genève — Avec ou sans rendez-vous</div>
+<div class="hero-note">Annemasse 🇫🇷 • Genève 🇨🇭</div>
     </div>
 
     <!-- RIGHT -->
     <div class="hero-right">
       <div class="hero-frame">
-        <img src="img/hero_salon.webp" alt="Intérieur du salon" />
+        <img src="img/1.webp" alt="Intérieur du salon" />
         <div class="frame-reflection"></div>
       </div>
     </div>
@@ -287,13 +321,13 @@
 
 
     <!-- ATELIER -->
-   
+<!--    
 <section id="atelier">
   <h2 class="section-title">L’Atelier Souf</h2>
 
   <div class="atelier-layout">
-    <!-- Colonne texte -->
-    <div class="atelier-text">
+    <  Colonne texte -->
+    <!-- <div class="atelier-text">
       <p class="atelier-intro">
         Né de la volonté de créer un barber où la technique rencontre le soin,
         <strong>Je suis passé chez Souf</strong> est un lieu où chaque geste est réfléchi.
@@ -314,8 +348,8 @@
       </div>
     </div>
 
-    <!-- Colonne visuelle -->
-    <div class="atelier-visual">
+    <!- Colonne visuelle -->
+    <!-- <div class="atelier-visual">
   <img src="img/salon.jesuispasséchezsouf.JPG" alt="Devanture du salon de coiffure Je suis passé chez Souf à Annemasse">
 
   <a href="#contact" class="atelier-cta">
@@ -323,8 +357,8 @@
   </a>
 </div>
 
-  </div>
-</section>
+  </div> -->
+<!-- </section>  -->
 
 
 
@@ -609,7 +643,7 @@
         <div class="meta">
           <h4>Annemasse</h4>
           <p class="address">1 Allée François Truffaut</p>
-          <button class="btn choose-salon" data-link="">
+          <button class="btn choose-salon" data-link="https://www.planity.com/je-suis-passe-chez-souf-74100-annemasse">
             Choisir Annemasse
           </button>
         </div>
@@ -617,11 +651,11 @@
 
       <!-- GENÈVE -->
       <div class="salon" data-planity-link="">
-        <img src="img/salon_geneve.jpg" alt="Salon Genève">
+        <img src="img/geneve.webp" alt="Salon Genève">
         <div class="meta">
           <h4>Genève</h4>
           <p class="address">Rue Pradier 6</p>
-          <button class="btn choose-salon" data-link="">
+          <button class="btn choose-salon" data-link="https://www.planity.com/je-suis-passe-chez-souf-1201-geneve">
             Choisir Genève
           </button>
         </div>
