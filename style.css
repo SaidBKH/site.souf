@@ -252,9 +252,6 @@ img {
   letter-spacing: 0.3px;
 }
 
-.mobile-dropdown-toggle:hover {
-  background: var(--accent);
-}
 
 .mobile-submenu {
   max-height: 0;
