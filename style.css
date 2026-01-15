@@ -250,6 +250,13 @@ img {
   cursor: pointer;
   border-radius: 10px;
   letter-spacing: 0.3px;
+    color: var(--text);
+     color: var(--text);
+  -webkit-appearance: none;
+  appearance: none;
+    font-family: inherit;
+
+
 }
 
 .mobile-dropdown-toggle:hover {
