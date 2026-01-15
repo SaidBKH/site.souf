@@ -225,7 +225,6 @@ img {
   cursor: pointer;
   padding: 8px 10px;
   border-radius: 8px;
-  color: var(--text);
 }
 
 .dropdown-toggle:hover {
@@ -252,6 +251,9 @@ img {
   letter-spacing: 0.3px;
 }
 
+.mobile-dropdown-toggle:hover {
+  background: var(--accent);
+}
 
 .mobile-submenu {
   max-height: 0;
