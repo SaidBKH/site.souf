@@ -225,6 +225,7 @@ img {
   cursor: pointer;
   padding: 8px 10px;
   border-radius: 8px;
+  color: var(--text);
 }
 
 .dropdown-toggle:hover {
