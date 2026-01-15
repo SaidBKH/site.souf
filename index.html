@@ -2,67 +2,89 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>JE SUIS PASSÉ CHEZ SOUF | Coiffeur Barbier Visagiste à Annemasse & Genève</title>
-  <meta name="description" content="Salon de coiffure, Barbier, Visagiste à Annemasse, à deux pas de Genève. Coupes précises, barbe et rituels haut de gamme. Réservation en ligne." />
-  <meta name="robots" content="index, follow">
-    <meta name="author" content="JE SUIS PASSÉ CHEZ SOUF">
-    <meta name="theme-color" content="#0f0f0f">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Barbier & Salon de coiffure homme à Genève et Annemasse | JE SUIS PASSÉ CHEZ SOUF</title>
+
+  <meta name="description" content="Salon de coiffure et barbier premium à Genève et Annemasse. Coupe homme sur-mesure, taille de barbe, soins visage. Réservation en ligne." />
+
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://jesuispassechezsouf.com/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
-<link rel="icon" href="img/logo.png" type="image/png">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "salon de coiffure, Barbier Visagiste",
-  "@id": "jesuispasséchezsouf.com",
-  "name": "JE SUIS PASSÉ CHEZ SOUF",
-  "url": "jesuispassechezsouf.com/",
-  "logo": "jesuispassechezsouf/img/logo.png",
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="/img/logo.png" />
 
-  "priceRange": "€€€",
-  "areaServed": [
-    {
-      "@type": "AdministrativeArea",
-      "name": "Annemasse"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Genève"
+  <!-- SEO Local - Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "JE SUIS PASSÉ CHEZ SOUF",
+    "url": "https://jesuispassechezsouf.com",
+    "telephone": "+41225553850",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rue Pradier 6",
+      "addressLocality": "Genève",
+      "postalCode": "1201",
+      "addressCountry": "CH"
     }
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Annemasse",
-    "addressCountry": "FR"
-  },
-  "sameAs": [
-    "https://www.instagram.com/jesuispassechezsouf"
-  ]
-}
-</script>
+  }
+  </script>
+
 
 </head>
 <body>
   <!-- NAV -->
+
 <nav class="navbar" role="navigation" aria-label="Navigation principale">
   <div class="nav-logo">
-    <img src="img/logo.webp" alt="Logo JE SUIS PASSÉ CHEZ SOUF">
-  </div>
+  <a href="index.html">
+    <img 
+      src="img/logo.webp" 
+      alt="Logo JE SUIS PASSÉ CHEZ SOUF" 
+      width="200" 
+      height="100"
+    >
+  </a>
+</div>
 
-  <ul class="nav-links" role="menubar">
-    <li role="none"><a role="menuitem" href="#rituels">Rituels</a></li>
-    <!-- <li role="none"><a role="menuitem" href="#before-after">Avant / Après</a></li> -->
-    <!-- <li role="none"><a role="menuitem" href="#atelier">L'Atelier</a></li> -->
-    <li role="none"><a role="menuitem" href="#promesse">Promesse</a></li>
-    <li role="none"><a role="menuitem" href="#reco">Recommandations</a></li>
-    <!-- <li role="none"><a role="menuitem" href="#salons">Salons</a></li> -->
-    <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
-  </ul>
+<ul class="nav-links" role="menubar">
+
+  <li role="none">
+    <a role="menuitem" href="index.html" aria-current="page">Accueil</a>
+  </li>
+
+  <!-- NOS RITUELS (DROPDOWN) -->
+  <li class="has-dropdown" role="none">
+   <button class="dropdown-toggle"
+        aria-expanded="false"
+        aria-controls="menu-rituels">
+  Nos rituels
+</button>
+
+<ul class="dropdown" id="menu-rituels">
+      <li><a role="menuitem" href="coupe-homme-geneve.html">Coupe homme à Genève</a></li>
+      <li><a role="menuitem" href="barbe-geneve.html">Barbe à Genève</a></li>
+      <li><a role="menuitem" href="couleur-geneve.html">Couleur & permanente homme</a></li>
+      <li><a role="menuitem" href="soins-visage-geneve.html">Soins visage homme</a></li>
+      <li><a role="menuitem" href="premium-geneve.html">Rituel premium</a></li>
+    </ul>
+  </li>
+
+  <li role="none"><a role="menuitem" href="barbier-geneve.html">Barbier à Genève</a></li>
+  <li role="none"><a role="menuitem" href="barbier-annemasse.html">Barbier à Annemasse</a></li>
+  <li role="none"><a role="menuitem" href="index.html#reco">Diagnostic</a></li>
+  <li role="none"><a role="menuitem" href="nous-rejoindre.html">Nous rejoindre</a></li>
+
+</ul>
+
+  
 
   <div class="nav-cta">
     <button id="btn-rdv-top" aria-label="Prendre rendez-vous">Prendre rendez-vous</button>
@@ -77,26 +99,60 @@
 <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
 
 <!-- MOBILE MENU -->
-<aside class="mobile-menu" id="mobileMenu" aria-hidden="true" role="dialog" aria-label="Menu mobile">
+<aside class="mobile-menu" id="mobileMenu" aria-hidden="true" role="dialog">
   <div class="mobile-header">
     <img src="img/logo.webp" alt="Logo Souf">
-    <button class="close-mobile" id="closeMobile" aria-label="Fermer le menu">✕</button>
+    <button class="close-mobile" id="closeMobile">✕</button>
   </div>
 
-  <ul class="mobile-links" role="menu">
-    <li><a href="#rituels">Rituels</a></li>
-    <!-- <li><a href="#before-after">Avant / Après</a></li> -->
-    <!-- <li><a href="#atelier">L'Atelier</a></li> -->
-    <li><a href="#promesse">Promesse</a></li>
-    <li><a href="#reco">Recommandations</a></li>
-    <!-- <li><a href="#salons">Salons</a></li> -->
-    <li><a href="#contact">Contact</a></li>
-    <li style="margin-top:14px"><button class="btn" id="mobile-book">Réserver</button></li>
-  </ul>
+ 
+<ul class="mobile-links" role="menu">
+
+  <li><a href="index.html" aria-current="page">Accueil</a></li>
+
+  <!-- DROPDOWN MOBILE -->
+  <li class="mobile-dropdown">
+    <button class="mobile-dropdown-toggle"
+            aria-expanded="false">
+      Nos rituels
+      <span class="chevron">▾</span>
+    </button>
+
+    <ul class="mobile-submenu">
+      <a href="coupe-homme-geneve.html">Coupe homme à Genève</a>
+<a href="barbe-geneve.html">Barbe à Genève</a>
+<a href="couleur-geneve.html">Couleur & mèches homme</a>
+<a href="soins-visage-geneve.html">Soins visage homme</a>
+<a href="premium-geneve.html">Rituel premium</a>
+    </ul>
+  </li>
+
+  <li><a href="barbier-geneve.html">Barbier à Genève</a></li>
+  <li><a href="barbier-annemasse.html">Barbier à Annemasse</a></li>
+  <li><a href="diagnostic.html">Diagnostic</a></li>
+  <li><a href="nous-rejoindre.html">Nous rejoindre</a></li>
+
+  <li style="margin-top:14px">
+    <button class="btn" id="mobile-book">Réserver</button>
+  </li>
+
+</ul>
+<div class="mobile-social">
+  <a href="https://www.instagram.com/jesuispassechezsouf"
+     target="_blank"
+     rel="noopener"
+     aria-label="Instagram Je suis passé chez Souf">
+    <span>Instagram</span>
+    <span class="handle">@jesuispassechezsouf</span>
+  </a>
+</div>
+
+
 </aside>
 
 
-  <div class="container" id="top">
+
+<div class="container" id="top">
     <!-- HERO -->
 <header class="hero" id="hero">
   <div class="hero-inner">
@@ -131,8 +187,10 @@
 </header>
 
 
+
+
     <!-- RITUELS -->
-<section id="rituels" class="rituels-section">
+<section id="rituels" class="rituels-section geneve">
   <header class="rituels-head">
     <h2 class="section-title">Nos Rituels</h2>
     <p class="section-sub">Des soins pensés, des gestes maîtrisés — pour révéler votre allure.</p>
@@ -487,34 +545,8 @@
   </div>
 </div>
 
+</div>
 
-<!-- SALONS -->
-    <!-- <section id="salons">
-      <h2 class="section-title">Nos Salons</h2>
-      <div style="display:flex;gap:12px;flex-wrap:wrap">
-        <div style="flex:1;min-width:240px;background:var(--card);padding:12px;border-radius:12px;border:1px solid var(--accent);box-shadow:0 8px 20px rgba(0,0,0,0.04)">
-          <h4>Annemasse</h4>
-          <p class="muted" style="margin:6px 0">Le salon historique — coupe & soin sur-mesure.</p>
-          <button class="btn salon-cta" data-planity="">Réserver sur Planity</button>
-        </div>
-        <div style="flex:1;min-width:240px;background:var(--card);padding:12px;border-radius:12px;border:1px solid var(--accent);box-shadow:0 8px 20px rgba(0,0,0,0.04)">
-          <h4>Genève</h4>
-          <p class="muted" style="margin:6px 0">Le nouveau salon — expérience premium et soins exclusifs.</p>
-          <button class="btn salon-cta" data-planity="">Réserver sur Planity</button>
-        </div>
-      </div>
-    </section> --> 
-
-    <!-- MARQUES
-    <section id="brands">
-      <h2 class="section-title">Marques & produits</h2>
-      <p class="muted" style="margin-bottom:8px">Sélection de produits premium choisis pour leurs résultats et leur qualité.</p>
-      <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
-        <img src="img/brand1.png" alt="Marque 1" style="height:48px;opacity:0.9">
-        <img src="img/brand2.png" alt="Marque 2" style="height:48px;opacity:0.9">
-        <img src="img/brand3.png" alt="Marque 3" style="height:48px;opacity:0.9">
-      </div>
-    </section> -->
 
     <!-- CONTACT ANCHOR -->
 <footer class="footer-souf" id="footer-souf" role="contentinfo" aria-label="Footer - Je suis passé chez Souf">
@@ -577,6 +609,8 @@
           Rue Pradier 6<br>1201 Genève
         </address>
 
+<div><a href="barbier-geneve.html">Salon de barbier à Genève centre</a></div>
+
         <p class="loc-tel"><a href="tel:+41225553850">+41 22 555 38 50</a></p>
 
         <div class="loc-hours">
@@ -613,9 +647,10 @@
         </div>
       </section>
 
-    </div> <!-- .footer-locations -->
-
-  </div> <!-- .footer-inner -->
+<div style = "font-size: 10px;">
+  <a href="mentions-legales.html">Mentions légales</a>
+<a href="politique-confidentialite.html">Politique de confidentialité</a>
+    </div>
 
   <!-- footer bottom small note -->
   <div class="footer-note">© JE SUIS PASSÉ CHEZ SOUF — Genève &amp; Annemasse • Tous droits réservés</div>
@@ -666,653 +701,10 @@
 </div>
 
   <!-- Floating booking button (mobile) -->
- 
+ <script src="./script.js" defer></script>
 
-  <script>
-  (function(){
-    // Elements
-    const navbar = document.querySelector('.navbar');
-    const hamburger = document.getElementById('hamburgerBtn');
-    const mobileMenu = document.getElementById('mobileMenu');
-    const mobileOverlay = document.getElementById('mobileOverlay');
-    const closeMobile = document.getElementById('closeMobile');
-    const btnRdvTop = document.getElementById('btn-rdv-top');
-    const btnRdvHero = document.getElementById('btn-rdv');
-    const modal = document.getElementById('modal');
-    const modalClose = document.getElementById('modal-close');
-    const chooseBtns = document.querySelectorAll('.choose-salon');
-    const salonCtas = document.querySelectorAll('.salon-cta');
 
-    // NAV behavior (auto-hide & shrink)
-    (function navScroll(){
-      let lastScroll = window.scrollY || 0;
-      const shrinkAt = 40;
-      const handler = () => {
-        const y = window.scrollY || 0;
-        if (y > lastScroll && y > 100) navbar.classList.add('hidden'); else navbar.classList.remove('hidden');
-        if (y > shrinkAt) navbar.classList.add('shrink'); else navbar.classList.remove('shrink');
-        lastScroll = y;
-      };
-      window.addEventListener('scroll', handler, {passive:true});
-    })();
-
-    // Smooth anchor scroll with offset
-    (function smoothAnchors(){
-      function navHeight(){ return navbar.offsetHeight || 76; }
-      document.querySelectorAll('a[href^="#"]').forEach(a=>{
-        a.addEventListener('click', (e)=>{
-          const href = a.getAttribute('href');
-          if (!href || href === '#' || !document.querySelector(href)) return;
-          e.preventDefault();
-          const target = document.querySelector(href);
-          const top = target.getBoundingClientRect().top + window.scrollY - navHeight() - 12;
-          window.scrollTo({ top, behavior:'smooth' });
-          if (mobileMenu && mobileMenu.classList.contains('active')) closeMobileMenu();
-        });
-      });
-    })();
-
-    // Mobile open/close + overlay + trap focus
-    function openMobileMenu(){
-      if (!mobileMenu || !mobileOverlay || !hamburger) return;
-      mobileMenu.classList.add('active');
-      mobileOverlay.classList.add('active');
-      hamburger.classList.add('active');
-      mobileMenu.setAttribute('aria-hidden','false');
-      hamburger.setAttribute('aria-expanded','true');
-      trapFocus(mobileMenu);
-    }
-    function closeMobileMenu(){
-      if (!mobileMenu || !mobileOverlay || !hamburger) return;
-      mobileMenu.classList.remove('active');
-      mobileOverlay.classList.remove('active');
-      hamburger.classList.remove('active');
-      mobileMenu.setAttribute('aria-hidden','true');
-      hamburger.setAttribute('aria-expanded','false');
-    }
-    function trapFocus(container){
-      const focusables = container.querySelectorAll('a, button, input, [tabindex]:not([tabindex="-1"])');
-      if(!focusables.length) return;
-      const first = focusables[0], last = focusables[focusables.length-1];
-      function keyHandler(e){
-        if(e.key !== 'Tab') return;
-        if(e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
-        else if(!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
-      }
-      container.addEventListener('keydown', keyHandler);
-      first.focus();
-      const obs = new MutationObserver(()=>{ if(!container.classList.contains('active')){ container.removeEventListener('keydown', keyHandler); obs.disconnect(); }});
-      obs.observe(container, { attributes: true, attributeFilter: ['class'] });
-    }
-
-    if (hamburger) hamburger.addEventListener('click', ()=> mobileMenu.classList.contains('active') ? closeMobileMenu() : openMobileMenu());
-    if (closeMobile) closeMobile.addEventListener('click', closeMobileMenu);
-    if (mobileOverlay) mobileOverlay.addEventListener('click', closeMobileMenu);
-    document.addEventListener('click', (e)=>{ if(mobileMenu && mobileMenu.classList.contains('active') && !mobileMenu.contains(e.target) && !hamburger.contains(e.target)) closeMobileMenu(); });
-
-    // Modal Planity open/close
-    function openModal(){ if(!modal) return; modal.style.opacity='1'; modal.style.pointerEvents='auto'; modal.classList.add('open'); } 
-window.openPlanityModal = openModal;
-
-
-    function closeModal(){ if(!modal) return; modal.style.opacity='0'; modal.style.pointerEvents='none'; modal.classList.remove('open'); }
-    if (btnRdvTop) btnRdvTop.addEventListener('click', openModal);
-    if (btnRdvHero) btnRdvHero.addEventListener('click', openModal);
-    if (modalClose) modalClose.addEventListener('click', closeModal);
-    if (modal) modal.addEventListener('click', (e)=>{ if(e.target===modal) closeModal(); });
-
-    // Planity placeholders
-    chooseBtns.forEach(btn=> btn.addEventListener('click', ()=> {
-      const link = btn.getAttribute('data-link') || '';
-      if(link) window.open(link,'_blank'); else window.open('https://www.planity.com','_blank');
-    }));
-    salonCtas.forEach(btn=> btn.addEventListener('click', ()=> {
-      const link = btn.getAttribute('data-planity') || '';
-      if(link) window.open(link,'_blank'); else window.open('https://www.planity.com','_blank');
-    }));
-
-    // Floating book
-    const mobileBook = document.getElementById('mobile-book');
-    if (mobileBook) mobileBook.addEventListener('click', ()=> { closeMobileMenu(); setTimeout(openModal, 220); });
-
-    // Before/After slider (desktop + touch)
-
-//     (function beforeAfter() {
-//   const range = document.getElementById('ba-range');
-//   const overlay = document.getElementById('ba-overlay');
-//   const handle = document.getElementById('ba-handle');
-//   const card = document.getElementById('ba-card');
-//   const hint = document.getElementById('ba-hint');
-
-//   function hideHint() {
-//     if (hint) hint.classList.add("hidden");
-//   }
-
-//   function update(val) {
-//     overlay.style.width = val + "%";
-//     handle.style.left = val + "%";
-//   }
-
-//   // Slider
-//   range.addEventListener("input", e => {
-//     update(e.target.value);
-//     hideHint();
-//   });
-
-//   // Drag
-//   let down = false;
-
-//   handle.addEventListener("pointerdown", () => {
-//     down = true;
-//     hideHint();
-//   });
-
-//   window.addEventListener("pointerup", () => down = false);
-
-//   window.addEventListener("pointermove", e => {
-//     if (!down) return;
-
-//     const rect = card.getBoundingClientRect();
-//     let x = e.clientX - rect.left;
-//     x = Math.max(0, Math.min(rect.width, x));
-
-//     const pct = Math.round((x / rect.width) * 100);
-
-//     range.value = pct;
-//     update(pct);
-//   });
-// })();
-
-
-
-;
-    // Quiz
-
-
-  })();
-
-
-
-(function(){
-
-  /* ================================
-     Pills interaction (click + clavier)
-  ================================= */
-  function makePillsInteractive(containerId){
-    const container = document.getElementById(containerId);
-    if(!container) return;
-
-    container.querySelectorAll('.pill-reco').forEach(pill=>{
-      pill.addEventListener('click', ()=> activatePill(pill, container));
-      pill.addEventListener('keydown', (e)=>{
-        if(e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          activatePill(pill, container);
-        }
-      });
-    });
-  }
-
-  function activatePill(pill, container){
-    container.querySelectorAll('.pill-reco').forEach(p=>p.classList.remove('active'));
-    pill.classList.add('active');
-  }
-
-  makePillsInteractive('q-hair');
-  makePillsInteractive('q-goal');
-  makePillsInteractive('q-beard');
-
-
-  /* ================================
-     Rituals mapping
-  ================================= */
-  const rituals = {
-    "fins|propre|non": {
-      title:"Rituel Coupe & Finition",
-      sub:"Coupe précise et légère pour un rendu net et naturel.",
-      includes:[
-        "Coupe adaptée à l’implantation",
-        "Texture légère",
-        "Finitions propres"
-      ],
-      upgrade:"Un coiffage professionnel peut être réalisé en salon."
-    },
-
-    "fins|propre|oui": {
-      title:"Coupe + Barbe Complète",
-      sub:"Harmonisation cheveux et barbe pour un rendu propre et équilibré.",
-      includes:[
-        "Coupe légère",
-        "Traçage et taille de barbe",
-        "Serviettes chaudes & massage"
-      ],
-      upgrade:"Barbe Premium disponible pour une finition vapeur et cire."
-    },
-
-    "epais|volume|oui": {
-      title:"Équilibre Cheveux & Barbe",
-      sub:"Structuration du volume et allègement maîtrisé.",
-      includes:[
-        "Coupe structurée",
-        "Taille et traçage de barbe",
-        "Massage & serviettes chaudes"
-      ],
-      upgrade:"Disponible en version Premium avec soin du visage."
-    },
-
-    "boucles|transform|oui": {
-      title:"Transformation Signature",
-      sub:"Refonte complète respectant le mouvement naturel des boucles.",
-      includes:[
-        "Diagnostic capillaire",
-        "Coupe texturée",
-        "Barbe Premium",
-        "Soin du visage"
-      ],
-      upgrade:"Couleur ou permanente possibles sur devis."
-    }
-  };
-
-
-  /* ================================
-     Elements
-  ================================= */
-  const resultCard  = document.getElementById('result');
-  const loader      = document.getElementById('result-loader');
-  const body        = document.getElementById('result-body');
-  const progressBar = document.getElementById('progress-bar');
-  const btnRun      = document.getElementById('btn-run');
-  const btnReset    = document.getElementById('btn-reset');
-  const panel       = document.getElementById('panel-questions');
-
-
-  /* ================================
-     Result helpers
-  ================================= */
-  function hideResult(){
-    progressBar.style.width = '0%';
-    loader.style.display = 'none';
-    body.style.display = 'none';
-    resultCard.classList.remove('visible');
-    resultCard.classList.add('hidden');
-    btnRun.setAttribute('aria-expanded','false');
-  }
-
-  function showLoader(){
-    body.style.display = 'none';
-    loader.style.display = 'flex';
-    resultCard.classList.remove('hidden');
-    resultCard.classList.add('visible');
-    btnRun.setAttribute('aria-expanded','true');
-
-    let start = null;
-    const duration = 900 + Math.random()*400;
-
-    function step(ts){
-      if(!start) start = ts;
-      const progress = Math.min(1, (ts - start) / duration);
-      progressBar.style.width = (progress * 100) + '%';
-
-      if(progress < 1){
-        requestAnimationFrame(step);
-      } else {
-        setTimeout(showResultContent, 220);
-      }
-    }
-
-    progressBar.style.width = '0%';
-    requestAnimationFrame(step);
-  }
-
-  function showResultContent(){
-    loader.style.display = 'none';
-    body.style.display = 'block';
-    body.style.opacity = '0';
-    body.style.transform = 'translateY(6px)';
-    requestAnimationFrame(()=>{
-      body.style.transition = 'all .35s ease';
-      body.style.opacity = '1';
-      body.style.transform = 'translateY(0)';
-    });
-  }
-
-
-  /* ================================
-     Run diagnostic
-  ================================= */
-  btnRun.addEventListener('click', ()=>{
-    const h = document.querySelector('#q-hair .pill-reco.active');
-    const g = document.querySelector('#q-goal .pill-reco.active');
-    const b = document.querySelector('#q-beard .pill-reco.active');
-
-    if(!h || !g || !b){
-      panel.animate(
-        [
-          {transform:'translateX(0)'},
-          {transform:'translateX(-6px)'},
-          {transform:'translateX(6px)'},
-          {transform:'translateX(0)'}
-        ],
-        {duration:280}
-      );
-      return;
-    }
-
-    const key = `${h.dataset.value}|${g.dataset.value}|${b.dataset.value}`;
-    const r = rituals[key] || {
-      title:"Rituel Personnalisé",
-      sub:"Nous adaptons la prestation selon l’observation en salon.",
-      includes:["Diagnostic en fauteuil","Proposition sur-mesure"],
-      upgrade:"Option Premium recommandée pour une expérience complète."
-    };
-
-    // Inject content
-    document.getElementById('r-title').innerText = r.title;
-    document.getElementById('r-sub').innerText = r.sub;
-
-    const ul = document.getElementById('r-includes');
-    ul.innerHTML = '';
-    r.includes.forEach(item=>{
-      const li = document.createElement('li');
-      li.innerText = item;
-      ul.appendChild(li);
-    });
-
-    document.getElementById('r-upgrade').innerText = r.upgrade;
-
-    showLoader();
-
-    
-  });
-
-  
-
-
-  /* ================================
-     Reset / Restart / Escape
-  ================================= */
-  btnReset.addEventListener('click', ()=>{
-    document.querySelectorAll('.pill-reco').forEach(p=>p.classList.remove('active'));
-    hideResult();
-  });
-
-  document.getElementById('r-restart').addEventListener('click', ()=>{
-    document.querySelectorAll('.pill-reco').forEach(p=>p.classList.remove('active'));
-    hideResult();
-  });
-
-  document.addEventListener('keydown', (e)=>{
-    if(e.key === 'Escape') hideResult();
-  });
-
-
-  /* ================================
-     Init
-  ================================= */
-  hideResult();
-
-const btnBook = document.getElementById('r-book');
-
-if (btnBook) {
-  btnBook.addEventListener('click', () => {
-    if (window.openPlanityModal) {
-      window.openPlanityModal();
-    }
-  });
-}
-
-  
-})();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
- 
-
-
-/* ===============================
-      HERO — Animation propre
-   =============================== */
-
-// Fade-in doux du hero à l'arrivée
-document.addEventListener("DOMContentLoaded", () => {
-  const hero = document.getElementById("hero");
-  if (!hero) return;
-
-  hero.style.opacity = "0";
-  hero.style.transform = "translateY(24px)";
-
-  requestAnimationFrame(() => {
-    hero.style.transition = "opacity 0.8s ease-out, transform 0.8s ease-out";
-    hero.style.opacity = "1";
-    hero.style.transform = "translateY(0)";
-  });
-});
-
-
-// Effet de profondeur ultra léger (parallax)
-window.addEventListener("scroll", () => {
-  const hero = document.getElementById("hero");
-  if (!hero) return;
-
-  const y = window.scrollY;
-
-  // Limite le parallax pour éviter tout effet "glissant"
-  const offset = Math.min(y * 0.08, 22);
-
-  hero.style.transform = `translateY(${offset}px)`;
-});
-
-/* ===============================
-        RITUELS — Animation & Modal
-   =============================== */
-
-(function(){
-  const rituelEls = document.querySelectorAll('.rituel');
-  const actionBar = document.getElementById('rituel-action');
-  const selectedLabel = document.getElementById('rituel-selected');
-  const bookLink = document.getElementById('book-rituel');
-  const clearBtn = document.getElementById('clear-selection');
-
-  // Modal
-  const btnRdvTop = document.getElementById("btn-rdv-top");
-  const modal = document.getElementById("modal");
-  const closeModal = document.getElementById("modal-close");
-
-  let current = null;
-
-  function openModal() {
-    modal.style.opacity = "1";
-    modal.style.pointerEvents = "auto";
-  }
-
-  function close() {
-    modal.style.opacity = "0";
-    modal.style.pointerEvents = "none";
-  }
-
-  function setSelected(el){
-    if(!el) return clearSelection();
-    // toggle
-    if(current === el){
-      clearSelection();
-      return;
-    }
-    // clear previous
-    if(current){
-      current.classList.remove('selected');
-      current.setAttribute('aria-pressed','false');
-    }
-    current = el;
-    current.classList.add('selected');
-    current.setAttribute('aria-pressed','true');
-
-    const name = el.dataset.rituel || el.querySelector('h3')?.innerText || 'Rituel';
-    selectedLabel.textContent = name;
-    // show bar
-    actionBar.setAttribute('aria-hidden','false');
-
-    // set booking link target (anchor vers #book)
-    const bookingHref = '#book?rituel=' + encodeURIComponent(name);
-    bookLink.setAttribute('href', bookingHref);
-    bookLink.dataset.rituel = name;
-
-}
-
-
-
-
-  function clearSelection(){
-    if(current){
-      current.classList.remove('selected');
-      current.setAttribute('aria-pressed','false');
-      current = null;
-    }
-    actionBar.setAttribute('aria-hidden','true');
-    selectedLabel.textContent = '—';
-    bookLink.removeAttribute('data-rituel');
-    bookLink.setAttribute('href', '#book');
-  }
-
-  // clic sur rituel
-  rituelEls.forEach(el=>{
-    el.addEventListener('click', ()=> setSelected(el));
-    el.addEventListener('keydown', (e)=>{
-      if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setSelected(el); }
-      if(e.key === 'Escape') clearSelection();
-    });
-  });
-
-  // boutons sticky
-  clearBtn.addEventListener('click', clearSelection);
-  bookLink.addEventListener('click', ()=> openModal()); // ouvre la modal si on clique dessus
-
-  // bouton principal
-  btnRdvTop.addEventListener("click", openModal);
-  closeModal.addEventListener("click", close);
-
-  // optional: fermer modal au clic hors contenu
-  modal.addEventListener("click", e=>{
-    if(e.target === modal) close();
-  });
-
-})();
-
-
-
-
-
-/* ===============================
-      TESTIMONIALS — Carousel
-   =============================== */
-
-const reviews = [
-  {
-    name: "Skander Wadid",
-    avatar: "",
-    text: "Un concept avant-gardiste qui n’a rien à voir avec les barbers classiques du coin ! L’accueil est top, le cadre stylé, et les coupes sont pile dans les tendances.",
-    date: "Visité en mars"
-  },
-  {
-    name: "Marine",
-    avatar: "",
-    text: "Clément est un coiffeur au top ! Pro, ponctuel et surtout d’une grande gentillesse. Mon fils adore ses coupes, je recommande les yeux fermés ! 👌🏼",
-    date: "Visité en août"
-  },
-  {
-    name: "amin obst",
-    avatar: "",
-    text: "Exceptionnel ! À l’écoute, précis, attentif. La coupe est impeccable et les conseils au top.",
-    date: "Visité en août"
-  },
-  {
-    name: "slimani djalel",
-    avatar: "",
-    text: "Très pro et à l’écoute ! Ça fait plaisir de voir quelqu’un de passionné. Merci frérot.",
-    date: "Visité en octobre"
-  },
-];
-
-// Render reviews
-const track = document.getElementById("testi-track");
-const dotsContainer = document.getElementById("testi-dots");
-
-track.innerHTML = reviews.map(r => `
-  <div class="testi">
-    <div class="testi-card">
-      <div class="testi-header">
-        <div class="testi-avatar">${r.avatar ? `<img src="${r.avatar}">` : r.name[0]}</div>
-        <div>
-          <div class="testi-name">${r.name}</div>
-          <div class="testi-stars">★★★★★</div>
-        </div>
-      </div>
-
-      <div class="testi-text">${r.text}</div>
-      <div class="muted" style="font-size:13px; margin-top:8px;">${r.date}</div>
-    </div>
-  </div>
-`).join("");
-
-// Render dots
-dotsContainer.innerHTML = reviews.map((_, i) =>
-  `<div class="testi-dot ${i === 0 ? "active" : ""}" data-i="${i}"></div>`
-).join("");
-
-const dots = [...document.querySelectorAll(".testi-dot")];
-
-let index = 0;
-function updateCarousel() {
-  track.style.transform = `translateX(-${index * 100}%)`;
-  dots.forEach(d => d.classList.remove("active"));
-  dots[index].classList.add("active");
-}
-
-dots.forEach(dot => dot.addEventListener("click", () => {
-  index = parseInt(dot.dataset.i);
-  updateCarousel();
-}));
-
-// Auto slide
-setInterval(() => {
-  index = (index + 1) % reviews.length;
-  updateCarousel();
-}, 6000);
-
-// Swipe mobile
-let startX = 0;
-track.addEventListener("touchstart", e => startX = e.touches[0].clientX);
-track.addEventListener("touchend", e => {
-  const dx = e.changedTouches[0].clientX - startX;
-  if (dx < -40) index = (index + 1) % reviews.length;
-  if (dx > 40) index = (index - 1 + reviews.length) % reviews.length;
-  updateCarousel();
-});
-
-
-
-
-  </script>
 </body>
 </html>
+
 
