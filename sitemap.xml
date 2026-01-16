@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- Page d'accueil -->
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/</loc>
+      <priority>1.00</priority>
+   </url>
+
+   <!-- Pages menu "Nos rituels" -->
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/coupe-homme-geneve</loc>
+      <priority>0.90</priority>
+   </url>
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/barbe-geneve</loc>
+      <priority>0.90</priority>
+   </url>
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/couleur-permanente-homme</loc>
+      <priority>0.85</priority>
+   </url>
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/soins-visage-homme</loc>
+      <priority>0.85</priority>
+   </url>
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/rituel-premium</loc>
+      <priority>0.85</priority>
+   </url>
+
+   <!-- Pages locales / SEO -->
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/barbier-geneve</loc>
+      <priority>0.90</priority>
+   </url>
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/barbier-annemasse</loc>
+      <priority>0.85</priority>
+   </url>
+
+   <!-- Autres pages importantes -->
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/diagnostic</loc>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/nous-rejoindre</loc>
+      <priority>0.70</priority>
+   </url>
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/contact</loc>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://www.jesuispassechezsouf.com/mentions-legales</loc>
+      <priority>0.50</priority>
+   </url>
+
+</urlset>
