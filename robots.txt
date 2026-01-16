@@ -1,2 +1,8 @@
+# robots.txt pour jesuispassechezsouf.com
+# Autorise tous les robots à indexer tout le site
+
 User-agent: *
 Disallow:
+
+# Lien vers le sitemap
+Sitemap: https://www.jesuispassechezsouf.com/sitemap.xml
